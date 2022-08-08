@@ -1,6 +1,6 @@
+import solid from "solid-start/vite";
+import cloudflareWorkers from "solid-start-cloudflare-workers";
 import { defineConfig } from "vite";
-import solid from "solid-start";
-
 export default defineConfig({
   plugins: [
     {
@@ -13,9 +13,7 @@ export default defineConfig({
     },
     solid({
       extensions: [".mdx", ".md"],
-      adapter: "solid-start-cloudflare-workers",
-      prerenderRoutes: [],
-      ssr: true,
+    	adapter: cloudflareWorkers({}),
     }),
   ],
 });

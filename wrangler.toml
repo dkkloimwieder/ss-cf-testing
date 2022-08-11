@@ -10,3 +10,6 @@ main='dist/server.js'
 [build]
 command='pnpm build'
 
+[site]
+bucket = "dist/public"
+

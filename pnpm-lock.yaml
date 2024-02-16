@@ -36,10 +36,10 @@ devDependencies:
     version: 0.1.0-alpha.100(@solidjs/meta@0.28.0)(@solidjs/router@0.4.3)(solid-js@1.5.4)(vite@3.2.8)
   solid-start-node:
     specifier: 0.1.0-alpha.99
-    version: 0.1.0-alpha.99(solid-start@0.1.0-alpha.100)(undici@5.26.2)(vite@3.2.8)
+    version: 0.1.0-alpha.99(solid-start@0.1.0-alpha.100)(undici@5.28.3)(vite@3.2.8)
   undici:
-    specifier: ^5.26.2
-    version: 5.26.2
+    specifier: ^5.28.3
+    version: 5.28.3
   vite:
     specifier: ^3.2.8
     version: 3.2.8
@@ -3402,7 +3402,7 @@ packages:
       vite: 3.2.8
     dev: false
 
-  /solid-start-node@0.1.0-alpha.99(solid-start@0.1.0-alpha.100)(undici@5.26.2)(vite@3.2.8):
+  /solid-start-node@0.1.0-alpha.99(solid-start@0.1.0-alpha.100)(undici@5.28.3)(vite@3.2.8):
     resolution: {integrity: sha512-uFADbfLY4Bbdf7iT7IMUAqj6GoM85Y3CN11UGkdVvB/O9vHXfRjfvwsyb1Yg5UMbJaQU30ACl4Wduj22HjcCzQ==}
     peerDependencies:
       solid-start: '*'
@@ -3418,7 +3418,7 @@ packages:
       sirv: 2.0.2
       solid-start: 0.1.0-alpha.100(@solidjs/meta@0.28.0)(@solidjs/router@0.4.3)(solid-js@1.5.4)(vite@3.2.8)
       terser: 5.15.0
-      undici: 5.26.2
+      undici: 5.28.3
       vite: 3.2.8
     transitivePeerDependencies:
       - supports-color
@@ -3461,7 +3461,7 @@ packages:
       sirv: 2.0.2
       solid-js: 1.5.4
       terser: 5.15.0
-      undici: 5.26.2
+      undici: 5.28.3
       vite: 3.2.8
       vite-plugin-inspect: 0.6.1(vite@3.2.8)
       vite-plugin-solid: 2.3.0(solid-js@1.5.4)(vite@3.2.8)
@@ -3583,8 +3583,8 @@ packages:
   /ufo@0.8.5:
     resolution: {integrity: sha512-e4+UtA5IRO+ha6hYklwj6r7BjiGMxS0O+UaSg9HbaTefg4kMkzj4tXzEBajRR+wkxf+golgAWKzLbytCUDMJAA==}
 
-  /undici@5.26.2:
-    resolution: {integrity: sha512-a4PDLQgLTPHVzOK+x3F79/M4GtyYPl+aX9AAK7aQxpwxDwCqkeZCScy7Gk5kWT3JtdFq1uhO3uZJdLtHI4dK9A==}
+  /undici@5.28.3:
+    resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
